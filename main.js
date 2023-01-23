@@ -6,7 +6,7 @@ const colors = legendData.map(d => d.color)
 const colorScale = d3.scaleOrdinal().domain(categories).range(colors);
 
 //convert data to hierarchical format
-const groupingFn = [d => d.familyName, d => d.redlistCategory];
+const groupingFn = [d => d.redlistCategory,d=>d.scientificName];
 const rollupData = d3.rollup(data, v => v.length, ...groupingFn);
 const childrenAccessorFn = ([key, value]) => value.size && Array.from(value);
 const hierarchyData = d3.hierarchy(rollupData, childrenAccessorFn)
@@ -46,12 +46,13 @@ viz.append("circle")
     .attr("fill", "none");
 
 d3.selectAll(".level0 circle") //most inner circles are level0
-    .attr("fill", d => colorScale(d.data[0]))
-    .attr("stroke", "black")
+    .attr("fill", "white")
+    .attr("opacity",0.5)
     .attr("stroke-width", 1);
 
 d3.selectAll(".level1 circle")
-    .attr("stroke", "black")
+.attr("fill", d => colorScale(d.data[0]))
+    .attr("stroke", "white")
     .attr("stroke-width", 1);
 
 // if I don't create a new set of gs and join the text directly to the prevous g,the text would be drawn under the circles
@@ -63,23 +64,8 @@ const text = chartG.selectAll("g.textNodes")
 
 text.append("text")
     .attr("class", "text")
-    .attr("font-size", 11)
+    .attr("font-size", 14)
     .attr("font-weight",700)
     .attr("text-anchor", "middle")
     .attr("dy",3)
     .text(d => d.height === 1 ? d.data[0] : "");
-
-// add legend    
-const legend = legendG.selectAll("g.legendG")
-    .data(legendData)
-    .join("g")
-    .attr("class","legendG")
-    .attr("transform", (d,i) => `translate(0,${i*categoryHeight})`);
-
-    legend.append("text").text(d=>d.category)
-    .attr("transform", "translate(15,9)"); //align texts with boxes
-
-    legend.append("rect")
-    .attr("fill", d=>colorScale(d.category))
-    .attr("width", 10)
-    .attr("height", 10);
