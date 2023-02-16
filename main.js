@@ -15,8 +15,6 @@ const hierarchyData = d3.hierarchy(rollupData, childrenAccessorFn)
 
 // all variables related to dimensions
 const length = 800;
-const categoryHeight = 20;
-const legendHeight = categoryHeight*categories.length;
 
 // Layout + node data prep
 const root = d3.pack()
@@ -26,12 +24,10 @@ const root = d3.pack()
 const nodes = root.descendants();
 
 //create SVG & G
-const svg = d3.select("#chart").append("svg").attr("width", length ).attr("height", length +legendHeight);
+const svg = d3.select("#chart").append("svg").attr("width", length ).attr("height", length );
 
 const chartG = svg.append("g").attr("class", "chartWrapper");
 
-const legendG = svg.append("g").attr("class", "legendWrapper")
-    .attr("transform", `translate(0, ${length})`)
 
 //draw circles
 const viz = chartG.selectAll("g.nodes")

@@ -1,3536 +1,2358 @@
 const data = [
   {
-    "orderName": "LAMNIFORMES",
-    "familyName": "ALOPIIDAE",
-    "scientificName": "Alopias pelagicus",
+    "scientificName": "spp 1",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "LAMNIFORMES",
-    "familyName": "ALOPIIDAE",
-    "scientificName": "Alopias superciliosus",
+    "scientificName": "spp 2",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "LAMNIFORMES",
-    "familyName": "ALOPIIDAE",
-    "scientificName": "Alopias vulpinus",
+    "scientificName": "spp 3",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "BRACHAELURIDAE",
-    "scientificName": "Brachaelurus colcloughi",
+    "scientificName": "spp 4",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "BRACHAELURIDAE",
-    "scientificName": "Brachaelurus waddi",
+    "scientificName": "spp 5",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CALLORHINCHIDAE",
-    "scientificName": "Callorhinchus callorynchus",
+    "scientificName": "spp 6",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CALLORHINCHIDAE",
-    "scientificName": "Callorhinchus capensis",
+    "scientificName": "spp 7",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CALLORHINCHIDAE",
-    "scientificName": "Callorhinchus milii",
+    "scientificName": "spp 8",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus acronotus",
+    "scientificName": "spp 9",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus albimarginatus",
+    "scientificName": "spp 10",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus altimus",
+    "scientificName": "spp 11",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus amblyrhynchoides",
+    "scientificName": "spp 12",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus amblyrhynchos",
+    "scientificName": "spp 13",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus amboinensis",
+    "scientificName": "spp 14",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus borneensis",
+    "scientificName": "spp 15",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus brachyurus",
+    "scientificName": "spp 16",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus brevipinna",
+    "scientificName": "spp 17",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus cautus",
+    "scientificName": "spp 18",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus cerdale",
+    "scientificName": "spp 19",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus coatesi",
+    "scientificName": "spp 20",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus dussumieri",
+    "scientificName": "spp 21",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus falciformis",
+    "scientificName": "spp 22",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus fitzroyensis",
+    "scientificName": "spp 23",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus galapagensis",
+    "scientificName": "spp 24",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus hemiodon",
+    "scientificName": "spp 25",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus humani",
+    "scientificName": "spp 26",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus isodon",
+    "scientificName": "spp 27",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus leiodon",
+    "scientificName": "spp 28",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus leucas",
+    "scientificName": "spp 29",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus limbatus",
+    "scientificName": "spp 30",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus longimanus",
+    "scientificName": "spp 31",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus macloti",
+    "scientificName": "spp 32",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus melanopterus",
+    "scientificName": "spp 33",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus obscurus",
+    "scientificName": "spp 34",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus obsoletus",
+    "scientificName": "spp 35",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus perezi",
+    "scientificName": "spp 36",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus plumbeus",
+    "scientificName": "spp 37",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus porosus",
+    "scientificName": "spp 38",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus sealei",
+    "scientificName": "spp 39",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus signatus",
+    "scientificName": "spp 40",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus sorrah",
+    "scientificName": "spp 41",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus tilstoni",
+    "scientificName": "spp 42",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Carcharhinus tjutjot",
+    "scientificName": "spp 43",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Galeocerdo cuvier",
+    "scientificName": "spp 44",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Glyphis gangeticus",
+    "scientificName": "spp 45",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Glyphis garricki",
+    "scientificName": "spp 46",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Glyphis glyphis",
+    "scientificName": "spp 47",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Isogomphodon oxyrhynchus",
+    "scientificName": "spp 48",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Lamiopsis temminckii",
+    "scientificName": "spp 49",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Lamiopsis tephrodes",
+    "scientificName": "spp 50",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Loxodon macrorhinus",
+    "scientificName": "spp 51",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Nasolamia velox",
+    "scientificName": "spp 52",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Negaprion acutidens",
+    "scientificName": "spp 53",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Negaprion brevirostris",
+    "scientificName": "spp 54",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Prionace glauca",
+    "scientificName": "spp 55",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Rhizoprionodon acutus",
+    "scientificName": "spp 56",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Rhizoprionodon lalandii",
+    "scientificName": "spp 57",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Rhizoprionodon longurio",
+    "scientificName": "spp 58",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Rhizoprionodon oligolinx",
+    "scientificName": "spp 59",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Rhizoprionodon porosus",
+    "scientificName": "spp 60",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Rhizoprionodon taylori",
+    "scientificName": "spp 61",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Rhizoprionodon terraenovae",
+    "scientificName": "spp 62",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Scoliodon laticaudus",
+    "scientificName": "spp 63",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Scoliodon macrorhynchos",
+    "scientificName": "spp 64",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "CARCHARHINIDAE",
-    "scientificName": "Triaenodon obesus",
+    "scientificName": "spp 65",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "CENTROPHORIDAE",
-    "scientificName": "Centrophorus atromarginatus",
+    "scientificName": "spp 66",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "CENTROPHORIDAE",
-    "scientificName": "Centrophorus granulosus",
+    "scientificName": "spp 67",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "CENTROPHORIDAE",
-    "scientificName": "Centrophorus harrissoni",
+    "scientificName": "spp 68",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "CENTROPHORIDAE",
-    "scientificName": "Centrophorus isodon",
+    "scientificName": "spp 69",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "CENTROPHORIDAE",
-    "scientificName": "Centrophorus lesliei",
+    "scientificName": "spp 70",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "CENTROPHORIDAE",
-    "scientificName": "Centrophorus longipinnis",
+    "scientificName": "spp 71",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "CENTROPHORIDAE",
-    "scientificName": "Centrophorus moluccensis",
+    "scientificName": "spp 72",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "CENTROPHORIDAE",
-    "scientificName": "Centrophorus seychellorum",
+    "scientificName": "spp 73",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "CENTROPHORIDAE",
-    "scientificName": "Centrophorus squamosus",
+    "scientificName": "spp 74",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "CENTROPHORIDAE",
-    "scientificName": "Centrophorus tessellatus",
+    "scientificName": "spp 75",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "CENTROPHORIDAE",
-    "scientificName": "Centrophorus uyato",
+    "scientificName": "spp 76",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "CENTROPHORIDAE",
-    "scientificName": "Centrophorus westraliensis",
+    "scientificName": "spp 77",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "CENTROPHORIDAE",
-    "scientificName": "Deania calcea",
+    "scientificName": "spp 78",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "CENTROPHORIDAE",
-    "scientificName": "Deania profundorum",
+    "scientificName": "spp 79",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "CENTROPHORIDAE",
-    "scientificName": "Deania quadrispinosa",
+    "scientificName": "spp 80",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "LAMNIFORMES",
-    "familyName": "CETORHINIDAE",
-    "scientificName": "Cetorhinus maximus",
+    "scientificName": "spp 81",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Chimaera argiloba",
+    "scientificName": "spp 82",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Chimaera bahamaensis",
+    "scientificName": "spp 83",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Chimaera buccanigella",
+    "scientificName": "spp 84",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Chimaera carophila",
+    "scientificName": "spp 85",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Chimaera cubana",
+    "scientificName": "spp 86",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Chimaera didierae",
+    "scientificName": "spp 87",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Chimaera fulva",
+    "scientificName": "spp 88",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Chimaera jordani",
+    "scientificName": "spp 89",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Chimaera lignaria",
+    "scientificName": "spp 90",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Chimaera macrospina",
+    "scientificName": "spp 91",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Chimaera monstrosa",
+    "scientificName": "spp 92",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Chimaera notafricana",
+    "scientificName": "spp 93",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Chimaera obscura",
+    "scientificName": "spp 94",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Chimaera ogilbyi",
+    "scientificName": "spp 95",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Chimaera opalescens",
+    "scientificName": "spp 96",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Chimaera orientalis",
+    "scientificName": "spp 97",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Chimaera owstoni",
+    "scientificName": "spp 98",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Chimaera panthera",
+    "scientificName": "spp 99",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Chimaera phantasma",
+    "scientificName": "spp 100",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Chimaera willwatchi",
+    "scientificName": "spp 101",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Hydrolagus affinis",
+    "scientificName": "spp 102",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Hydrolagus africanus",
+    "scientificName": "spp 103",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Hydrolagus alberti",
+    "scientificName": "spp 104",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Hydrolagus alphus",
+    "scientificName": "spp 105",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Hydrolagus barbouri",
+    "scientificName": "spp 106",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Hydrolagus bemisi",
+    "scientificName": "spp 107",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Hydrolagus colliei",
+    "scientificName": "spp 108",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Hydrolagus erithacus",
+    "scientificName": "spp 109",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Hydrolagus homonycteris",
+    "scientificName": "spp 110",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Hydrolagus lusitanicus",
+    "scientificName": "spp 111",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Hydrolagus macrophthalmus",
+    "scientificName": "spp 112",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Hydrolagus marmoratus",
+    "scientificName": "spp 113",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Hydrolagus matallanasi",
+    "scientificName": "spp 114",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Hydrolagus mccoskeri",
+    "scientificName": "spp 115",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Hydrolagus melanophasma",
+    "scientificName": "spp 116",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Hydrolagus mirabilis",
+    "scientificName": "spp 117",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Hydrolagus mitsukurii",
+    "scientificName": "spp 118",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Hydrolagus novaezealandiae",
+    "scientificName": "spp 119",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Hydrolagus pallidus",
+    "scientificName": "spp 120",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Hydrolagus purpurescens",
+    "scientificName": "spp 121",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "CHIMAERIDAE",
-    "scientificName": "Hydrolagus trolli",
+    "scientificName": "spp 122",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "HEXANCHIFORMES",
-    "familyName": "CHLAMYDOSELACHIDAE",
-    "scientificName": "Chlamydoselachus africana",
+    "scientificName": "spp 123",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "HEXANCHIFORMES",
-    "familyName": "CHLAMYDOSELACHIDAE",
-    "scientificName": "Chlamydoselachus anguineus",
+    "scientificName": "spp 124",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "DALATIIDAE",
-    "scientificName": "Dalatias licha",
+    "scientificName": "spp 125",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "DALATIIDAE",
-    "scientificName": "Euprotomicroides zantedeschia",
+    "scientificName": "spp 126",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "DALATIIDAE",
-    "scientificName": "Euprotomicrus bispinatus",
+    "scientificName": "spp 127",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "DALATIIDAE",
-    "scientificName": "Heteroscymnoides marleyi",
+    "scientificName": "spp 128",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "DALATIIDAE",
-    "scientificName": "Isistius brasiliensis",
+    "scientificName": "spp 129",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "DALATIIDAE",
-    "scientificName": "Isistius plutodus",
+    "scientificName": "spp 130",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "DALATIIDAE",
-    "scientificName": "Mollisquama mississippiensis",
+    "scientificName": "spp 131",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "DALATIIDAE",
-    "scientificName": "Mollisquama parini",
+    "scientificName": "spp 132",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "DALATIIDAE",
-    "scientificName": "Squaliolus aliae",
+    "scientificName": "spp 133",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "DALATIIDAE",
-    "scientificName": "Squaliolus laticaudus",
+    "scientificName": "spp 134",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ECHINORHINIDAE",
-    "scientificName": "Echinorhinus brucus",
+    "scientificName": "spp 135",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ECHINORHINIDAE",
-    "scientificName": "Echinorhinus cookei",
+    "scientificName": "spp 136",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Aculeola nigra",
+    "scientificName": "spp 137",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Centroscyllium excelsum",
+    "scientificName": "spp 138",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Centroscyllium fabricii",
+    "scientificName": "spp 139",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Centroscyllium granulatum",
+    "scientificName": "spp 140",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Centroscyllium kamoharai",
+    "scientificName": "spp 141",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Centroscyllium nigrum",
+    "scientificName": "spp 142",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Centroscyllium ornatum",
+    "scientificName": "spp 143",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Centroscyllium ritteri",
+    "scientificName": "spp 144",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus alphus",
+    "scientificName": "spp 145",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus benchleyi",
+    "scientificName": "spp 146",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus bigelowi",
+    "scientificName": "spp 147",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus brachyurus",
+    "scientificName": "spp 148",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus bullisi",
+    "scientificName": "spp 149",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus burgessi",
+    "scientificName": "spp 150",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus carteri",
+    "scientificName": "spp 151",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus caudistigmus",
+    "scientificName": "spp 152",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus compagnoi",
+    "scientificName": "spp 153",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus decacuspidatus",
+    "scientificName": "spp 154",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus dianthus",
+    "scientificName": "spp 155",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus dislineatus",
+    "scientificName": "spp 156",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus evansi",
+    "scientificName": "spp 157",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus fusus",
+    "scientificName": "spp 158",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus gracilispinis",
+    "scientificName": "spp 159",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus granulosus",
+    "scientificName": "spp 160",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus hillianus",
+    "scientificName": "spp 161",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus joungi",
+    "scientificName": "spp 162",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus lailae",
+    "scientificName": "spp 163",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus litvinovi",
+    "scientificName": "spp 164",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus lucifer",
+    "scientificName": "spp 165",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus marshae",
+    "scientificName": "spp 166",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus molleri",
+    "scientificName": "spp 167",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus perryi",
+    "scientificName": "spp 168",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus polli",
+    "scientificName": "spp 169",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus princeps",
+    "scientificName": "spp 170",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus pseudosqualiolus",
+    "scientificName": "spp 171",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus pusillus",
+    "scientificName": "spp 172",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus pycnolepis",
+    "scientificName": "spp 173",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus robinsi",
+    "scientificName": "spp 174",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus samadiae",
+    "scientificName": "spp 175",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus schultzi",
+    "scientificName": "spp 176",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus sculptus",
+    "scientificName": "spp 177",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus sentosus",
+    "scientificName": "spp 178",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus sheikoi",
+    "scientificName": "spp 179",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus spinax",
+    "scientificName": "spp 180",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus splendidus",
+    "scientificName": "spp 181",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus unicolor",
+    "scientificName": "spp 182",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus viator",
+    "scientificName": "spp 183",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus villosus",
+    "scientificName": "spp 184",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Etmopterus virens",
+    "scientificName": "spp 185",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "ETMOPTERIDAE",
-    "scientificName": "Trigonognathus kabeyai",
+    "scientificName": "spp 186",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "GINGLYMOSTOMATIDAE",
-    "scientificName": "Ginglymostoma cirratum",
+    "scientificName": "spp 187",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "GINGLYMOSTOMATIDAE",
-    "scientificName": "Ginglymostoma unami",
+    "scientificName": "spp 188",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "GINGLYMOSTOMATIDAE",
-    "scientificName": "Nebrius ferrugineus",
+    "scientificName": "spp 189",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "GINGLYMOSTOMATIDAE",
-    "scientificName": "Pseudoginglymostoma brevicaudatum",
+    "scientificName": "spp 190",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "HEMIGALEIDAE",
-    "scientificName": "Chaenogaleus macrostoma",
+    "scientificName": "spp 191",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "HEMIGALEIDAE",
-    "scientificName": "Hemigaleus australiensis",
+    "scientificName": "spp 192",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "HEMIGALEIDAE",
-    "scientificName": "Hemigaleus microstoma",
+    "scientificName": "spp 193",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "HEMIGALEIDAE",
-    "scientificName": "Hemipristis elongata",
+    "scientificName": "spp 194",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "HEMIGALEIDAE",
-    "scientificName": "Paragaleus leucolomatus",
+    "scientificName": "spp 195",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "HEMIGALEIDAE",
-    "scientificName": "Paragaleus pectoralis",
+    "scientificName": "spp 196",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "HEMIGALEIDAE",
-    "scientificName": "Paragaleus randalli",
+    "scientificName": "spp 197",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "HEMIGALEIDAE",
-    "scientificName": "Paragaleus tengi",
+    "scientificName": "spp 198",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "HEMISCYLLIIDAE",
-    "scientificName": "Chiloscyllium arabicum",
+    "scientificName": "spp 199",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "HEMISCYLLIIDAE",
-    "scientificName": "Chiloscyllium burmensis",
+    "scientificName": "spp 200",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "HEMISCYLLIIDAE",
-    "scientificName": "Chiloscyllium caeruleopunctatum",
+    "scientificName": "spp 201",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "HEMISCYLLIIDAE",
-    "scientificName": "Chiloscyllium griseum",
+    "scientificName": "spp 202",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "HEMISCYLLIIDAE",
-    "scientificName": "Chiloscyllium hasselti",
+    "scientificName": "spp 203",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "HEMISCYLLIIDAE",
-    "scientificName": "Chiloscyllium indicum",
+    "scientificName": "spp 204",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "HEMISCYLLIIDAE",
-    "scientificName": "Chiloscyllium plagiosum",
+    "scientificName": "spp 205",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "HEMISCYLLIIDAE",
-    "scientificName": "Chiloscyllium punctatum",
+    "scientificName": "spp 206",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "HEMISCYLLIIDAE",
-    "scientificName": "Hemiscyllium freycineti",
+    "scientificName": "spp 207",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "HEMISCYLLIIDAE",
-    "scientificName": "Hemiscyllium galei",
+    "scientificName": "spp 208",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "HEMISCYLLIIDAE",
-    "scientificName": "Hemiscyllium hallstromi",
+    "scientificName": "spp 209",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "HEMISCYLLIIDAE",
-    "scientificName": "Hemiscyllium halmahera",
+    "scientificName": "spp 210",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "HEMISCYLLIIDAE",
-    "scientificName": "Hemiscyllium henryi",
+    "scientificName": "spp 211",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "HEMISCYLLIIDAE",
-    "scientificName": "Hemiscyllium michaeli",
+    "scientificName": "spp 212",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "HEMISCYLLIIDAE",
-    "scientificName": "Hemiscyllium ocellatum",
+    "scientificName": "spp 213",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "HEMISCYLLIIDAE",
-    "scientificName": "Hemiscyllium strahani",
+    "scientificName": "spp 214",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "HEMISCYLLIIDAE",
-    "scientificName": "Hemiscyllium trispeculare",
+    "scientificName": "spp 215",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "HETERODONTIFORMES",
-    "familyName": "HETERODONTIDAE",
-    "scientificName": "Heterodontus francisci",
+    "scientificName": "spp 216",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "HETERODONTIFORMES",
-    "familyName": "HETERODONTIDAE",
-    "scientificName": "Heterodontus galeatus",
+    "scientificName": "spp 217",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "HETERODONTIFORMES",
-    "familyName": "HETERODONTIDAE",
-    "scientificName": "Heterodontus japonicus",
+    "scientificName": "spp 218",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "HETERODONTIFORMES",
-    "familyName": "HETERODONTIDAE",
-    "scientificName": "Heterodontus mexicanus",
+    "scientificName": "spp 219",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "HETERODONTIFORMES",
-    "familyName": "HETERODONTIDAE",
-    "scientificName": "Heterodontus omanensis",
+    "scientificName": "spp 220",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "HETERODONTIFORMES",
-    "familyName": "HETERODONTIDAE",
-    "scientificName": "Heterodontus portusjacksoni",
+    "scientificName": "spp 221",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "HETERODONTIFORMES",
-    "familyName": "HETERODONTIDAE",
-    "scientificName": "Heterodontus quoyi",
+    "scientificName": "spp 222",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "HETERODONTIFORMES",
-    "familyName": "HETERODONTIDAE",
-    "scientificName": "Heterodontus ramalheira",
+    "scientificName": "spp 223",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "HETERODONTIFORMES",
-    "familyName": "HETERODONTIDAE",
-    "scientificName": "Heterodontus zebra",
+    "scientificName": "spp 224",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "HEXANCHIFORMES",
-    "familyName": "HEXANCHIDAE",
-    "scientificName": "Heptranchias perlo",
+    "scientificName": "spp 225",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "HEXANCHIFORMES",
-    "familyName": "HEXANCHIDAE",
-    "scientificName": "Hexanchus griseus",
+    "scientificName": "spp 226",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "HEXANCHIFORMES",
-    "familyName": "HEXANCHIDAE",
-    "scientificName": "Hexanchus nakamurai",
+    "scientificName": "spp 227",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "HEXANCHIFORMES",
-    "familyName": "HEXANCHIDAE",
-    "scientificName": "Hexanchus vitulus",
+    "scientificName": "spp 228",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "HEXANCHIFORMES",
-    "familyName": "HEXANCHIDAE",
-    "scientificName": "Notorynchus cepedianus",
+    "scientificName": "spp 229",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "LAMNIFORMES",
-    "familyName": "LAMNIDAE",
-    "scientificName": "Carcharodon carcharias",
+    "scientificName": "spp 230",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "LAMNIFORMES",
-    "familyName": "LAMNIDAE",
-    "scientificName": "Isurus oxyrinchus",
+    "scientificName": "spp 231",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "LAMNIFORMES",
-    "familyName": "LAMNIDAE",
-    "scientificName": "Isurus paucus",
+    "scientificName": "spp 232",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "LAMNIFORMES",
-    "familyName": "LAMNIDAE",
-    "scientificName": "Lamna ditropis",
+    "scientificName": "spp 233",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "LAMNIFORMES",
-    "familyName": "LAMNIDAE",
-    "scientificName": "Lamna nasus",
+    "scientificName": "spp 234",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "LEPTOCHARIIDAE",
-    "scientificName": "Leptocharias smithii",
+    "scientificName": "spp 235",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "LAMNIFORMES",
-    "familyName": "MEGACHASMIDAE",
-    "scientificName": "Megachasma pelagios",
+    "scientificName": "spp 236",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "LAMNIFORMES",
-    "familyName": "MITSUKURINIDAE",
-    "scientificName": "Mitsukurina owstoni",
+    "scientificName": "spp 237",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "LAMNIFORMES",
-    "familyName": "ODONTASPIDIDAE",
-    "scientificName": "Carcharias taurus",
+    "scientificName": "spp 238",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "LAMNIFORMES",
-    "familyName": "ODONTASPIDIDAE",
-    "scientificName": "Odontaspis ferox",
+    "scientificName": "spp 239",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "LAMNIFORMES",
-    "familyName": "ODONTASPIDIDAE",
-    "scientificName": "Odontaspis noronhai",
+    "scientificName": "spp 240",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "ORECTOLOBIDAE",
-    "scientificName": "Eucrossorhinus dasypogon",
+    "scientificName": "spp 241",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "ORECTOLOBIDAE",
-    "scientificName": "Orectolobus floridus",
+    "scientificName": "spp 242",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "ORECTOLOBIDAE",
-    "scientificName": "Orectolobus halei",
+    "scientificName": "spp 243",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "ORECTOLOBIDAE",
-    "scientificName": "Orectolobus hutchinsi",
+    "scientificName": "spp 244",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "ORECTOLOBIDAE",
-    "scientificName": "Orectolobus japonicus",
+    "scientificName": "spp 245",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "ORECTOLOBIDAE",
-    "scientificName": "Orectolobus leptolineatus",
+    "scientificName": "spp 246",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "ORECTOLOBIDAE",
-    "scientificName": "Orectolobus maculatus",
+    "scientificName": "spp 247",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "ORECTOLOBIDAE",
-    "scientificName": "Orectolobus ornatus",
+    "scientificName": "spp 248",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "ORECTOLOBIDAE",
-    "scientificName": "Orectolobus parvimaculatus",
+    "scientificName": "spp 249",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "ORECTOLOBIDAE",
-    "scientificName": "Orectolobus reticulatus",
+    "scientificName": "spp 250",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "ORECTOLOBIDAE",
-    "scientificName": "Orectolobus wardi",
+    "scientificName": "spp 251",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "ORECTOLOBIDAE",
-    "scientificName": "Sutorectus tentaculatus",
+    "scientificName": "spp 252",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "OXYNOTIDAE",
-    "scientificName": "Oxynotus bruniensis",
+    "scientificName": "spp 253",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "OXYNOTIDAE",
-    "scientificName": "Oxynotus caribbaeus",
+    "scientificName": "spp 254",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "OXYNOTIDAE",
-    "scientificName": "Oxynotus centrina",
+    "scientificName": "spp 255",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "OXYNOTIDAE",
-    "scientificName": "Oxynotus japonicus",
+    "scientificName": "spp 256",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "OXYNOTIDAE",
-    "scientificName": "Oxynotus paradoxus",
+    "scientificName": "spp 257",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "PARASCYLLIIDAE",
-    "scientificName": "Cirrhoscyllium expolitum",
+    "scientificName": "spp 258",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "PARASCYLLIIDAE",
-    "scientificName": "Cirrhoscyllium formosanum",
+    "scientificName": "spp 259",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "PARASCYLLIIDAE",
-    "scientificName": "Cirrhoscyllium japonicum",
+    "scientificName": "spp 260",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "PARASCYLLIIDAE",
-    "scientificName": "Parascyllium collare",
+    "scientificName": "spp 261",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "PARASCYLLIIDAE",
-    "scientificName": "Parascyllium elongatum",
+    "scientificName": "spp 262",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "PARASCYLLIIDAE",
-    "scientificName": "Parascyllium ferrugineum",
+    "scientificName": "spp 263",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "PARASCYLLIIDAE",
-    "scientificName": "Parascyllium sparsimaculatum",
+    "scientificName": "spp 264",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "PARASCYLLIIDAE",
-    "scientificName": "Parascyllium variolatum",
+    "scientificName": "spp 265",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus albisoma",
+    "scientificName": "spp 266",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus ampliceps",
+    "scientificName": "spp 267",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus aphyodes",
+    "scientificName": "spp 268",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus australis",
+    "scientificName": "spp 269",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus breviventralis",
+    "scientificName": "spp 270",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus brunneus",
+    "scientificName": "spp 271",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus bucephalus",
+    "scientificName": "spp 272",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus canutus",
+    "scientificName": "spp 273",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus exsanguis",
+    "scientificName": "spp 274",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus fedorovi",
+    "scientificName": "spp 275",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus garricki",
+    "scientificName": "spp 276",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus gibbosus",
+    "scientificName": "spp 277",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus herklotsi",
+    "scientificName": "spp 278",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus indicus",
+    "scientificName": "spp 279",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus internatus",
+    "scientificName": "spp 280",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus investigatoris",
+    "scientificName": "spp 281",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus japonicus",
+    "scientificName": "spp 282",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus kampae",
+    "scientificName": "spp 283",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus laurussonii",
+    "scientificName": "spp 284",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus longicephalus",
+    "scientificName": "spp 285",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus macrorhynchus",
+    "scientificName": "spp 286",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus macrostomus",
+    "scientificName": "spp 287",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus manis",
+    "scientificName": "spp 288",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus melanoasper",
+    "scientificName": "spp 289",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus microps",
+    "scientificName": "spp 290",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus micropterygeus",
+    "scientificName": "spp 291",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus nakayai",
+    "scientificName": "spp 292",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus nasutus",
+    "scientificName": "spp 293",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus parvipinnis",
+    "scientificName": "spp 294",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus pinguis",
+    "scientificName": "spp 295",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus platyrhynchus",
+    "scientificName": "spp 296",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus profundorum",
+    "scientificName": "spp 297",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus riveri",
+    "scientificName": "spp 298",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus saldanha",
+    "scientificName": "spp 299",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus sibogae",
+    "scientificName": "spp 300",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus sinensis",
+    "scientificName": "spp 301",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus spongiceps",
+    "scientificName": "spp 302",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus stenseni",
+    "scientificName": "spp 303",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Apristurus yangi",
+    "scientificName": "spp 304",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Asymbolus analis",
+    "scientificName": "spp 305",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Asymbolus funebris",
+    "scientificName": "spp 306",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Asymbolus galacticus",
+    "scientificName": "spp 307",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Asymbolus occiduus",
+    "scientificName": "spp 308",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Asymbolus pallidus",
+    "scientificName": "spp 309",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Asymbolus parvus",
+    "scientificName": "spp 310",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Asymbolus rubiginosus",
+    "scientificName": "spp 311",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Asymbolus submaculatus",
+    "scientificName": "spp 312",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Asymbolus vincenti",
+    "scientificName": "spp 313",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Bythaelurus alcockii",
+    "scientificName": "spp 314",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Bythaelurus bachi",
+    "scientificName": "spp 315",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Bythaelurus canescens",
+    "scientificName": "spp 316",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Bythaelurus clevai",
+    "scientificName": "spp 317",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Bythaelurus dawsoni",
+    "scientificName": "spp 318",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Bythaelurus giddingsi",
+    "scientificName": "spp 319",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Bythaelurus hispidus",
+    "scientificName": "spp 320",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Bythaelurus immaculatus",
+    "scientificName": "spp 321",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Bythaelurus incanus",
+    "scientificName": "spp 322",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Bythaelurus lutarius",
+    "scientificName": "spp 323",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Bythaelurus naylori",
+    "scientificName": "spp 324",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Bythaelurus stewarti",
+    "scientificName": "spp 325",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Bythaelurus tenuicephalus",
+    "scientificName": "spp 326",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Bythaelurus vivaldii",
+    "scientificName": "spp 327",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Cephalurus cephalus",
+    "scientificName": "spp 328",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Figaro boardmani",
+    "scientificName": "spp 329",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Figaro striatus",
+    "scientificName": "spp 330",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Galeus antillensis",
+    "scientificName": "spp 331",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Galeus arae",
+    "scientificName": "spp 332",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Galeus atlanticus",
+    "scientificName": "spp 333",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Galeus cadenati",
+    "scientificName": "spp 334",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Galeus corriganae",
+    "scientificName": "spp 335",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Galeus eastmani",
+    "scientificName": "spp 336",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Galeus gracilis",
+    "scientificName": "spp 337",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Galeus longirostris",
+    "scientificName": "spp 338",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Galeus melastomus",
+    "scientificName": "spp 339",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Galeus mincaronei",
+    "scientificName": "spp 340",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Galeus murinus",
+    "scientificName": "spp 341",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Galeus nipponensis",
+    "scientificName": "spp 342",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Galeus piperatus",
+    "scientificName": "spp 343",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Galeus polli",
+    "scientificName": "spp 344",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Galeus priapus",
+    "scientificName": "spp 345",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Galeus sauteri",
+    "scientificName": "spp 346",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Galeus schultzi",
+    "scientificName": "spp 347",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Galeus springeri",
+    "scientificName": "spp 348",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Halaelurus boesemani",
+    "scientificName": "spp 349",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Halaelurus buergeri",
+    "scientificName": "spp 350",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Halaelurus lineatus",
+    "scientificName": "spp 351",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Halaelurus maculosus",
+    "scientificName": "spp 352",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Halaelurus natalensis",
+    "scientificName": "spp 353",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Halaelurus quagga",
+    "scientificName": "spp 354",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Halaelurus sellus",
+    "scientificName": "spp 355",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Haploblepharus edwardsii",
+    "scientificName": "spp 356",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Haploblepharus fuscus",
+    "scientificName": "spp 357",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Haploblepharus kistnasamyi",
+    "scientificName": "spp 358",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Haploblepharus pictus",
+    "scientificName": "spp 359",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Holohalaelurus favus",
+    "scientificName": "spp 360",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Holohalaelurus grennian",
+    "scientificName": "spp 361",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Holohalaelurus melanostigma",
+    "scientificName": "spp 362",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Holohalaelurus punctatus",
+    "scientificName": "spp 363",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Holohalaelurus regani",
+    "scientificName": "spp 364",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Parmaturus albimarginatus",
+    "scientificName": "spp 365",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Parmaturus albipenis",
+    "scientificName": "spp 366",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Parmaturus angelae",
+    "scientificName": "spp 367",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Parmaturus bigus",
+    "scientificName": "spp 368",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Parmaturus campechiensis",
+    "scientificName": "spp 369",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Parmaturus lanatus",
+    "scientificName": "spp 370",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Parmaturus macmillani",
+    "scientificName": "spp 371",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Parmaturus melanobranchus",
+    "scientificName": "spp 372",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Parmaturus nigripalatum",
+    "scientificName": "spp 373",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Parmaturus pilosus",
+    "scientificName": "spp 374",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Parmaturus xaniurus",
+    "scientificName": "spp 375",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PENTANCHIDAE",
-    "scientificName": "Pentanchus profundicolus",
+    "scientificName": "spp 376",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "PRISTIOPHORIFORMES",
-    "familyName": "PRISTIOPHORIDAE",
-    "scientificName": "Pliotrema annae",
+    "scientificName": "spp 377",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "PRISTIOPHORIFORMES",
-    "familyName": "PRISTIOPHORIDAE",
-    "scientificName": "Pliotrema kajae",
+    "scientificName": "spp 378",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "PRISTIOPHORIFORMES",
-    "familyName": "PRISTIOPHORIDAE",
-    "scientificName": "Pliotrema warreni",
+    "scientificName": "spp 379",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "PRISTIOPHORIFORMES",
-    "familyName": "PRISTIOPHORIDAE",
-    "scientificName": "Pristiophorus cirratus",
+    "scientificName": "spp 380",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "PRISTIOPHORIFORMES",
-    "familyName": "PRISTIOPHORIDAE",
-    "scientificName": "Pristiophorus delicatus",
+    "scientificName": "spp 381",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "PRISTIOPHORIFORMES",
-    "familyName": "PRISTIOPHORIDAE",
-    "scientificName": "Pristiophorus japonicus",
+    "scientificName": "spp 382",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "PRISTIOPHORIFORMES",
-    "familyName": "PRISTIOPHORIDAE",
-    "scientificName": "Pristiophorus lanae",
+    "scientificName": "spp 383",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "PRISTIOPHORIFORMES",
-    "familyName": "PRISTIOPHORIDAE",
-    "scientificName": "Pristiophorus nancyae",
+    "scientificName": "spp 384",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "PRISTIOPHORIFORMES",
-    "familyName": "PRISTIOPHORIDAE",
-    "scientificName": "Pristiophorus nudipinnis",
+    "scientificName": "spp 385",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "PRISTIOPHORIFORMES",
-    "familyName": "PRISTIOPHORIDAE",
-    "scientificName": "Pristiophorus schroederi",
+    "scientificName": "spp 386",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PROSCYLLIIDAE",
-    "scientificName": "Ctenacis fehlmanni",
+    "scientificName": "spp 387",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PROSCYLLIIDAE",
-    "scientificName": "Eridacnis barbouri",
+    "scientificName": "spp 388",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PROSCYLLIIDAE",
-    "scientificName": "Eridacnis radcliffei",
+    "scientificName": "spp 389",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PROSCYLLIIDAE",
-    "scientificName": "Eridacnis sinuans",
+    "scientificName": "spp 390",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PROSCYLLIIDAE",
-    "scientificName": "Proscyllium habereri",
+    "scientificName": "spp 391",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PROSCYLLIIDAE",
-    "scientificName": "Proscyllium magnificum",
+    "scientificName": "spp 392",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "LAMNIFORMES",
-    "familyName": "PSEUDOCARCHARIIDAE",
-    "scientificName": "Pseudocarcharias kamoharai",
+    "scientificName": "spp 393",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PSEUDOTRIAKIDAE",
-    "scientificName": "Gollum attenuatus",
+    "scientificName": "spp 394",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PSEUDOTRIAKIDAE",
-    "scientificName": "Gollum suluensis",
+    "scientificName": "spp 395",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PSEUDOTRIAKIDAE",
-    "scientificName": "Planonasus indicus",
+    "scientificName": "spp 396",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PSEUDOTRIAKIDAE",
-    "scientificName": "Planonasus parini",
+    "scientificName": "spp 397",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "PSEUDOTRIAKIDAE",
-    "scientificName": "Pseudotriakis microdon",
+    "scientificName": "spp 398",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "RHINCODONTIDAE",
-    "scientificName": "Rhincodon typus",
+    "scientificName": "spp 399",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "RHINOCHIMAERIDAE",
-    "scientificName": "Harriotta haeckeli",
+    "scientificName": "spp 400",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "RHINOCHIMAERIDAE",
-    "scientificName": "Harriotta raleighana",
+    "scientificName": "spp 401",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "RHINOCHIMAERIDAE",
-    "scientificName": "Neoharriotta carri",
+    "scientificName": "spp 402",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "RHINOCHIMAERIDAE",
-    "scientificName": "Neoharriotta pinnata",
+    "scientificName": "spp 403",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "RHINOCHIMAERIDAE",
-    "scientificName": "Neoharriotta pumila",
+    "scientificName": "spp 404",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "RHINOCHIMAERIDAE",
-    "scientificName": "Rhinochimaera africana",
+    "scientificName": "spp 405",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "RHINOCHIMAERIDAE",
-    "scientificName": "Rhinochimaera atlantica",
+    "scientificName": "spp 406",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CHIMAERIFORMES",
-    "familyName": "RHINOCHIMAERIDAE",
-    "scientificName": "Rhinochimaera pacifica",
+    "scientificName": "spp 407",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Akheilos suwartanai",
+    "scientificName": "spp 408",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Atelomycterus baliensis",
+    "scientificName": "spp 409",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Atelomycterus erdmanni",
+    "scientificName": "spp 410",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Atelomycterus fasciatus",
+    "scientificName": "spp 411",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Atelomycterus macleayi",
+    "scientificName": "spp 412",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Atelomycterus marmoratus",
+    "scientificName": "spp 413",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Atelomycterus marnkalha",
+    "scientificName": "spp 414",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Aulohalaelurus kanakorum",
+    "scientificName": "spp 415",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Aulohalaelurus labiosus",
+    "scientificName": "spp 416",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Cephaloscyllium albipinnum",
+    "scientificName": "spp 417",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Cephaloscyllium cooki",
+    "scientificName": "spp 418",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Cephaloscyllium fasciatum",
+    "scientificName": "spp 419",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Cephaloscyllium formosanum",
+    "scientificName": "spp 420",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Cephaloscyllium hiscosellum",
+    "scientificName": "spp 421",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Cephaloscyllium isabellum",
+    "scientificName": "spp 422",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Cephaloscyllium laticeps",
+    "scientificName": "spp 423",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Cephaloscyllium pictum",
+    "scientificName": "spp 424",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Cephaloscyllium sarawakensis",
+    "scientificName": "spp 425",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Cephaloscyllium signourum",
+    "scientificName": "spp 426",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Cephaloscyllium silasi",
+    "scientificName": "spp 427",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Cephaloscyllium speccum",
+    "scientificName": "spp 428",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Cephaloscyllium stevensi",
+    "scientificName": "spp 429",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Cephaloscyllium sufflans",
+    "scientificName": "spp 430",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Cephaloscyllium umbratile",
+    "scientificName": "spp 431",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Cephaloscyllium variegatum",
+    "scientificName": "spp 432",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Cephaloscyllium ventriosum",
+    "scientificName": "spp 433",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Cephaloscyllium zebrum",
+    "scientificName": "spp 434",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Poroderma africanum",
+    "scientificName": "spp 435",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Poroderma pantherinum",
+    "scientificName": "spp 436",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Schroederichthys bivius",
+    "scientificName": "spp 437",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Schroederichthys chilensis",
+    "scientificName": "spp 438",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Schroederichthys maculatus",
+    "scientificName": "spp 439",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Schroederichthys saurisqualus",
+    "scientificName": "spp 440",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Schroederichthys tenuis",
+    "scientificName": "spp 441",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Scyliorhinus boa",
+    "scientificName": "spp 442",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Scyliorhinus cabofriensis",
+    "scientificName": "spp 443",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Scyliorhinus canicula",
+    "scientificName": "spp 444",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Scyliorhinus capensis",
+    "scientificName": "spp 445",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Scyliorhinus cervigoni",
+    "scientificName": "spp 446",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Scyliorhinus comoroensis",
+    "scientificName": "spp 447",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Scyliorhinus garmani",
+    "scientificName": "spp 448",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Scyliorhinus haeckelii",
+    "scientificName": "spp 449",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Scyliorhinus hesperius",
+    "scientificName": "spp 450",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Scyliorhinus meadi",
+    "scientificName": "spp 451",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Scyliorhinus retifer",
+    "scientificName": "spp 452",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Scyliorhinus stellaris",
+    "scientificName": "spp 453",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Scyliorhinus torazame",
+    "scientificName": "spp 454",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Scyliorhinus torrei",
+    "scientificName": "spp 455",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SCYLIORHINIDAE",
-    "scientificName": "Scyliorhinus ugoi",
+    "scientificName": "spp 456",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SOMNIOSIDAE",
-    "scientificName": "Centroscymnus coelolepis",
+    "scientificName": "spp 457",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SOMNIOSIDAE",
-    "scientificName": "Centroscymnus macracanthus",
+    "scientificName": "spp 458",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SOMNIOSIDAE",
-    "scientificName": "Centroscymnus owstonii",
+    "scientificName": "spp 459",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SOMNIOSIDAE",
-    "scientificName": "Centroselachus crepidater",
+    "scientificName": "spp 460",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SOMNIOSIDAE",
-    "scientificName": "Scymnodalatias albicauda",
+    "scientificName": "spp 461",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SOMNIOSIDAE",
-    "scientificName": "Scymnodalatias garricki",
+    "scientificName": "spp 462",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SOMNIOSIDAE",
-    "scientificName": "Scymnodalatias oligodon",
+    "scientificName": "spp 463",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SOMNIOSIDAE",
-    "scientificName": "Scymnodalatias sherwoodi",
+    "scientificName": "spp 464",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SOMNIOSIDAE",
-    "scientificName": "Scymnodon ichiharai",
+    "scientificName": "spp 465",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SOMNIOSIDAE",
-    "scientificName": "Scymnodon plunketi",
+    "scientificName": "spp 466",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SOMNIOSIDAE",
-    "scientificName": "Scymnodon ringens",
+    "scientificName": "spp 467",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SOMNIOSIDAE",
-    "scientificName": "Somniosus antarcticus",
+    "scientificName": "spp 468",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SOMNIOSIDAE",
-    "scientificName": "Somniosus longus",
+    "scientificName": "spp 469",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SOMNIOSIDAE",
-    "scientificName": "Somniosus microcephalus",
+    "scientificName": "spp 470",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SOMNIOSIDAE",
-    "scientificName": "Somniosus pacificus",
+    "scientificName": "spp 471",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SOMNIOSIDAE",
-    "scientificName": "Somniosus rostratus",
+    "scientificName": "spp 472",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SOMNIOSIDAE",
-    "scientificName": "Zameus squamulosus",
+    "scientificName": "spp 473",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SPHYRNIDAE",
-    "scientificName": "Eusphyra blochii",
+    "scientificName": "spp 474",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SPHYRNIDAE",
-    "scientificName": "Sphyrna corona",
+    "scientificName": "spp 475",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SPHYRNIDAE",
-    "scientificName": "Sphyrna gilberti",
+    "scientificName": "spp 476",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SPHYRNIDAE",
-    "scientificName": "Sphyrna lewini",
+    "scientificName": "spp 477",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SPHYRNIDAE",
-    "scientificName": "Sphyrna media",
+    "scientificName": "spp 478",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SPHYRNIDAE",
-    "scientificName": "Sphyrna mokarran",
+    "scientificName": "spp 479",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SPHYRNIDAE",
-    "scientificName": "Sphyrna tiburo",
+    "scientificName": "spp 480",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SPHYRNIDAE",
-    "scientificName": "Sphyrna tudes",
+    "scientificName": "spp 481",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "SPHYRNIDAE",
-    "scientificName": "Sphyrna zygaena",
+    "scientificName": "spp 482",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Cirrhigaleus asper",
+    "scientificName": "spp 483",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Cirrhigaleus australis",
+    "scientificName": "spp 484",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Cirrhigaleus barbifer",
+    "scientificName": "spp 485",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus acanthias",
+    "scientificName": "spp 486",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus acutipinnis",
+    "scientificName": "spp 487",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus albicaudus",
+    "scientificName": "spp 488",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus albifrons",
+    "scientificName": "spp 489",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus altipinnis",
+    "scientificName": "spp 490",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus bahiensis",
+    "scientificName": "spp 491",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus bassi",
+    "scientificName": "spp 492",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus blainville",
+    "scientificName": "spp 493",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus boretzi",
+    "scientificName": "spp 494",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus brevirostris",
+    "scientificName": "spp 495",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus bucephalus",
+    "scientificName": "spp 496",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus chloroculus",
+    "scientificName": "spp 497",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus clarkae",
+    "scientificName": "spp 498",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus crassispinus",
+    "scientificName": "spp 499",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus cubensis",
+    "scientificName": "spp 500",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus edmundsi",
+    "scientificName": "spp 501",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus formosus",
+    "scientificName": "spp 502",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus grahami",
+    "scientificName": "spp 503",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus griffini",
+    "scientificName": "spp 504",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus hawaiiensis",
+    "scientificName": "spp 505",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus hemipinnis",
+    "scientificName": "spp 506",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus japonicus",
+    "scientificName": "spp 507",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus lalannei",
+    "scientificName": "spp 508",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus lobularis",
+    "scientificName": "spp 509",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus mahia",
+    "scientificName": "spp 510",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus margaretsmithae",
+    "scientificName": "spp 511",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus megalops",
+    "scientificName": "spp 512",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus melanurus",
+    "scientificName": "spp 513",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus mitsukurii",
+    "scientificName": "spp 514",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus montalbani",
+    "scientificName": "spp 515",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus nasutus",
+    "scientificName": "spp 516",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus notocaudatus",
+    "scientificName": "spp 517",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus quasimodo",
+    "scientificName": "spp 518",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus rancureli",
+    "scientificName": "spp 519",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus raoulensis",
+    "scientificName": "spp 520",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUALIFORMES",
-    "familyName": "SQUALIDAE",
-    "scientificName": "Squalus suckleyi",
+    "scientificName": "spp 521",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUATINIFORMES",
-    "familyName": "SQUATINIDAE",
-    "scientificName": "Squatina aculeata",
+    "scientificName": "spp 522",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "SQUATINIFORMES",
-    "familyName": "SQUATINIDAE",
-    "scientificName": "Squatina africana",
+    "scientificName": "spp 523",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "SQUATINIFORMES",
-    "familyName": "SQUATINIDAE",
-    "scientificName": "Squatina albipunctata",
+    "scientificName": "spp 524",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "SQUATINIFORMES",
-    "familyName": "SQUATINIDAE",
-    "scientificName": "Squatina argentina",
+    "scientificName": "spp 525",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "SQUATINIFORMES",
-    "familyName": "SQUATINIDAE",
-    "scientificName": "Squatina armata",
+    "scientificName": "spp 526",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "SQUATINIFORMES",
-    "familyName": "SQUATINIDAE",
-    "scientificName": "Squatina australis",
+    "scientificName": "spp 527",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUATINIFORMES",
-    "familyName": "SQUATINIDAE",
-    "scientificName": "Squatina caillieti",
+    "scientificName": "spp 528",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "SQUATINIFORMES",
-    "familyName": "SQUATINIDAE",
-    "scientificName": "Squatina californica",
+    "scientificName": "spp 529",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "SQUATINIFORMES",
-    "familyName": "SQUATINIDAE",
-    "scientificName": "Squatina david",
+    "scientificName": "spp 530",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "SQUATINIFORMES",
-    "familyName": "SQUATINIDAE",
-    "scientificName": "Squatina dumeril",
+    "scientificName": "spp 531",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUATINIFORMES",
-    "familyName": "SQUATINIDAE",
-    "scientificName": "Squatina formosa",
+    "scientificName": "spp 532",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "SQUATINIFORMES",
-    "familyName": "SQUATINIDAE",
-    "scientificName": "Squatina guggenheim",
+    "scientificName": "spp 533",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "SQUATINIFORMES",
-    "familyName": "SQUATINIDAE",
-    "scientificName": "Squatina japonica",
+    "scientificName": "spp 534",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "SQUATINIFORMES",
-    "familyName": "SQUATINIDAE",
-    "scientificName": "Squatina legnota",
+    "scientificName": "spp 535",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "SQUATINIFORMES",
-    "familyName": "SQUATINIDAE",
-    "scientificName": "Squatina nebulosa",
+    "scientificName": "spp 536",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "SQUATINIFORMES",
-    "familyName": "SQUATINIDAE",
-    "scientificName": "Squatina occulta",
+    "scientificName": "spp 537",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "SQUATINIFORMES",
-    "familyName": "SQUATINIDAE",
-    "scientificName": "Squatina oculata",
+    "scientificName": "spp 538",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "SQUATINIFORMES",
-    "familyName": "SQUATINIDAE",
-    "scientificName": "Squatina pseudocellata",
+    "scientificName": "spp 539",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUATINIFORMES",
-    "familyName": "SQUATINIDAE",
-    "scientificName": "Squatina squatina",
+    "scientificName": "spp 540",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "SQUATINIFORMES",
-    "familyName": "SQUATINIDAE",
-    "scientificName": "Squatina tergocellata",
+    "scientificName": "spp 541",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "SQUATINIFORMES",
-    "familyName": "SQUATINIDAE",
-    "scientificName": "Squatina tergocellatoides",
+    "scientificName": "spp 542",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "SQUATINIFORMES",
-    "familyName": "SQUATINIDAE",
-    "scientificName": "Squatina varii",
+    "scientificName": "spp 543",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "ORECTOLOBIFORMES",
-    "familyName": "STEGOSTOMIDAE",
-    "scientificName": "Stegostoma tigrinum",
+    "scientificName": "spp 544",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Furgaleus macki",
+    "scientificName": "spp 545",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Galeorhinus galeus",
+    "scientificName": "spp 546",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Gogolia filewoodi",
+    "scientificName": "spp 547",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Hemitriakis abdita",
+    "scientificName": "spp 548",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Hemitriakis complicofasciata",
+    "scientificName": "spp 549",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Hemitriakis falcata",
+    "scientificName": "spp 550",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Hemitriakis indroyonoi",
+    "scientificName": "spp 551",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Hemitriakis japanica",
+    "scientificName": "spp 552",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Hemitriakis leucoperiptera",
+    "scientificName": "spp 553",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Hypogaleus hyugaensis",
+    "scientificName": "spp 554",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Iago garricki",
+    "scientificName": "spp 555",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Iago omanensis",
+    "scientificName": "spp 556",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus albipinnis",
+    "scientificName": "spp 557",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus antarcticus",
+    "scientificName": "spp 558",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus asterias",
+    "scientificName": "spp 559",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus californicus",
+    "scientificName": "spp 560",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus canis",
+    "scientificName": "spp 561",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus dorsalis",
+    "scientificName": "spp 562",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus fasciatus",
+    "scientificName": "spp 563",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus griseus",
+    "scientificName": "spp 564",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus henlei",
+    "scientificName": "spp 565",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus higmani",
+    "scientificName": "spp 566",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus lenticulatus",
+    "scientificName": "spp 567",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus lunulatus",
+    "scientificName": "spp 568",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus manazo",
+    "scientificName": "spp 569",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus mento",
+    "scientificName": "spp 570",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus minicanis",
+    "scientificName": "spp 571",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus mosis",
+    "scientificName": "spp 572",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus mustelus",
+    "scientificName": "spp 573",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus norrisi",
+    "scientificName": "spp 574",
     "redlistCategory": "Near Threatened"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus palumbes",
+    "scientificName": "spp 575",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus punctulatus",
+    "scientificName": "spp 576",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus ravidus",
+    "scientificName": "spp 577",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus schmitti",
+    "scientificName": "spp 578",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus sinusmexicanus",
+    "scientificName": "spp 579",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus stevensi",
+    "scientificName": "spp 580",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus walkeri",
+    "scientificName": "spp 581",
     "redlistCategory": "Data Deficient"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus whitneyi",
+    "scientificName": "spp 582",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Mustelus widodoi",
+    "scientificName": "spp 583",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Scylliogaleus quecketti",
+    "scientificName": "spp 584",
     "redlistCategory": "Vulnerable"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Triakis acutipinna",
+    "scientificName": "spp 585",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Triakis maculata",
+    "scientificName": "spp 586",
     "redlistCategory": "Critically Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Triakis megalopterus",
+    "scientificName": "spp 587",
     "redlistCategory": "Least Concern"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Triakis scyllium",
+    "scientificName": "spp 588",
     "redlistCategory": "Endangered"
   },
   {
-    "orderName": "CARCHARHINIFORMES",
-    "familyName": "TRIAKIDAE",
-    "scientificName": "Triakis semifasciata",
+    "scientificName": "spp 589",
     "redlistCategory": "Least Concern"
   }
 ]
