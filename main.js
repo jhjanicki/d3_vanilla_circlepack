@@ -1,5 +1,7 @@
+// all variables related to dimensions
+const length = 800;
 
-//legend data and color scale
+//legend data (if desire) and color scale
 const legendData = [{"category":"Critically Endangered","color":"#b30000"},{"category":"Endangered","color":"#e34a33"},{"category":"Vulnerable","color":"#fc8d59"},{"category":"Near Threatened","color":"#fdbb84"},{"category":"Least Concern","color":"#fdd49e"},{"category":"Data Deficient","color":"#d9d9d9"}];
 const categories = legendData.map(d => d.category)
 const colors = legendData.map(d => d.color)
@@ -13,9 +15,6 @@ const hierarchyData = d3.hierarchy(rollupData, childrenAccessorFn)
     .sum(([key, value]) => value)
     .sort((a, b) => b.value - a.value)
 
-// all variables related to dimensions
-const length = 800;
-
 // Layout + node data prep
 const root = d3.pack()
     .size([length, length])
@@ -23,45 +22,30 @@ const root = d3.pack()
 
 const nodes = root.descendants();
 
-//create SVG & G
+//create SVG
 const svg = d3.select("#chart").append("svg").attr("width", length ).attr("height", length );
 
-const chartG = svg.append("g").attr("class", "chartWrapper");
-
-
 //draw circles
-const viz = chartG.selectAll("g.nodes")
+const viz = svg.selectAll("g")
     .data(nodes)
     .join("g")
-    .attr("class", d => "level" + d.height + " nodes")
+    .attr("class", d => "level" + d.height)
     .attr("transform", d => `translate(${d.x + 1},${d.y + 1})`)
 
 viz.append("circle")
     .attr("class", "circle")
     .attr("r", d => d.r)
-    .attr("fill", "none");
+    .attr("fill", d=>d.height===1?colorScale(d.data[0]):"white")
+    .attr("opacity",d=>d.height===1?1:0.5)
 
-d3.selectAll(".level0 circle") //most inner circles are level0
-    .attr("fill", "white")
-    .attr("opacity",0.5)
-    .attr("stroke-width", 1);
-
-d3.selectAll(".level1 circle")
-.attr("fill", d => colorScale(d.data[0]))
-    .attr("stroke", "white")
-    .attr("stroke-width", 1);
-
-// if I don't create a new set of gs and join the text directly to the prevous g,the text would be drawn under the circles
-const text = chartG.selectAll("g.textNodes")
+// create a new set of group element so the text would be drawn on top all circles
+const text = svg.selectAll("g.textNodes")
     .data(nodes)
     .join("g")
     .attr("class", d => "text" + d.height + " textNodes")
     .attr("transform", d => `translate(${d.x + 1},${d.y + 1})`)
 
 text.append("text")
-    .attr("class", "text")
-    .attr("font-size", 14)
-    .attr("font-weight",700)
-    .attr("text-anchor", "middle")
     .attr("dy",3)
+    .attr("text-anchor", "middle")
     .text(d => d.height === 1 ? d.data[0] : "");
